@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="index.css">
+    <title>HelpDesk</title>
+</head>
+<body>
+    <header>
+        <div class="x">
+            <h1>Central de Serviços</h1>
+            
+        </div>
+        <div class="a">
+            <ul>
+                <li><a href="index.html"><sup>Principal</sup><span class="material-symbols-outlined">home</span></a></li>
+                <li><a href="lista.html"><sup>Lista de Chamados</sup><span class="material-symbols-outlined">history</span></a></li>
+           
+            </ul>
+        </div>
+    </header>
+    <div class="b">
+        <h2>Chamado: 85HRV1Y</h2>
+    </div>
+    <div class="c">
+        <h2>Produto/Processo/Módulo</h2>
+        <label for="produto">Produto: </label>
+        <select name="" id="produto">
+            <option selected>
+                MANUTENÇÃO DE UNIDADES
+            </option>
+            <option>
+                VASCO
+            </option>
+            <option>
+                CALCULADORA
+            </option>
+            <option>NOBRE TERNO</option>
+        
+        </select>
+        <label for="processo">Processo: </label>
+        <select name="" id="processo">
+            <option>
+                ATENDIMENTO
+            </option>
+            <OPtion>
+                LUIZ
+            </OPtion>
+            <OPtion>
+                VENDEDOR 1
+            </OPtion>
+            <OPtion>
+                VENDEDOR 2
+            </OPtion>
+            
+        </select>
+        <div class="modulo"></div>
+        <label for="modulo">Módulo: </label>
+        <select name="" id="modulo">
+            <option>
+                SERVIÇOS
+            </option>
+            <option>
+                PRINCIPAL
+            </option>
+            <option>
+                CARRINHO
+            </option>
+            <option>
+                MASCULINO
+            </option>
+            <option>
+                HISTÓRIA
+            </option>
+        </select>
+    </div>
+    <div class="d">
+        <h2>Caminho/Natureza/Severidade/Vencimento/Versão</h2>
+        <div>
+            <label for="caminho">Caminho: </label>
+            <input placeholder="Manutenção de Equipamentos" type="text" id="caminho">
+        </div>
+        <div>
+            <label for="natureza">Natureza: </label>
+            <select name="" id="natureza">
+                <option>
+                    Evolutiva
+                </option>
+                <option>
+                    Preventiva
+                </option>
+                <option>
+                    Adaptativa
+                </option>
+                <option>
+                    Corretiva
+                </option>
+            </select>
+        </div>
+        <div>
+            <label for="vencimento">Vencimento: </label>
+            <input id="vencimento" placeholder="O vencimento será calculado pelo sistema" type="text">
+        </div>
+    </div>
+    <div class="e">
+        <h2>Título/Descrição</h2>
+        <div>
+            <label for="titulo">Título: </label>
+            <input placeholder="Erro tela de login" type="text" id="titulo">
+        </div>
+        <div>
+            <label id="descricao">Descrição: </label>
+            <textarea rows="7" cols="190"></textarea>
+            <br>
+            <button><sup>Confirmar</sup><sub><span class="material-symbols-outlined">done</span></sub></button>
+            <button><sup>Cancelar</sup><sub><span class="material-symbols-outlined">cancel</span></sub></button></div>
+    </div>
+</body>
+</html>
